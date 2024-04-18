@@ -1,4 +1,4 @@
-/* SignUP Page   */
+/* SignUP Page  */
 body {
     margin: 0px;
     padding: 0px;
@@ -6,7 +6,8 @@ body {
 
 .signup_page {
     /* border: 2px solid; */
-    padding-bottom: 27.2px;
+    padding: 6em 0px;
+    padding-top:4em !important;
     display: flex;
     flex-direction: row;
     background: radial-gradient(circle at center, hsl(351, 100%, 99%), hsl(350, 100%, 92%), hsl(350, 100%, 90%) 150%);
@@ -46,7 +47,7 @@ body {
 .text-3 {
     /* border: 1px solid green; */
     height: 350px;
-    background-image: url(images/image1.png);
+    background-image: url(images/two-players.png);
     background-position: center;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -238,4 +239,10 @@ textarea {
         height: 300px;
     }
     
+}
+@media (min-width:880px) and (max-width:1280.98px) {
+    .signup_page {
+        padding-bottom: 27.23px !important;
+        padding: 0px;
+    }
 }
